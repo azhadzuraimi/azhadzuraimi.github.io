@@ -1,7 +1,7 @@
 /* CSS Document */
 
 body {
-	background-color:#fff;
+	background-color:#333;
 	background-image:url(../images/backgrounds/body.gif);
 	background-position:center;
 	background-repeat:repeat-y;
@@ -33,7 +33,7 @@ body {
 	color:#A85BA6;
 }
 #header h1 a {
-	color:#333;
+	color:#eee;
 	text-decoration:none;
 }
 #header h2 {
@@ -81,7 +81,7 @@ body {
 #sidebar h1 {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:12px;
-	color:#000;
+	color:#eee;
 	margin:10px 5px 15px 10px;
 }
 #sidebar p {
@@ -148,10 +148,10 @@ ul.submenu {
 	font-size:14px;
 	border-bottom:1px solid #eee;
 	padding:5px;
-	color:#000;
+	color:#eee;
 }
 #content h1 a {
-	color:#000;
+	color:#eee;
 	text-decoration:none;
 	display:block;
 	background-image:url(../images/backgrounds/h1.png);
@@ -188,22 +188,22 @@ ul.submenu {
 	background-image:url(../images/backgrounds/comment.png);
 	background-position:left;
 	background-repeat:no-repeat;
-	color:#333;
+	color:#eee;
 	text-decoration:none;
 }
 #content p a {
-	color:#333;
+	color:#eee;
 	text-decoration:none;
 }
 
 #content p:hover a {
-	border-bottom:1px dotted #000;
+	border-bottom:1px dotted #eee;
 }
 #content p:hover a:hover {
-	border-bottom:1px solid #000;
+	border-bottom:1px solid #eee;
 }
 #content .article_menu a:hover {	
-	color:#000;
+	color:#eee;
 	background-image:url(../images/backgrounds/comment_hover.png);
 }
 #content ul {
@@ -266,6 +266,6 @@ input, textarea {
 }
 
 a {
-	color:#333;
+	color:#eee;
 	text-decoration:none;
 }
