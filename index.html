@@ -1,79 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Azhad Github Blog</title>
-    <meta charset ="UTF-8">
-    <meta name="author" content = "Azhad Zuraimi">
-    <meta name="description" content="Personal Blog">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/1.css" type="text/css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-<div id="container">
-  <div id="header">
-    <h1><a href="#">Study<strong>BLOG</strong> AZHAD</a></h1>
-    <h2>“In learning you will teach, and in teaching you will learn.” ― Phil Collins</h2>
-    <ul id="nav">
-      <li><a href="#" accesskey="h"><em>H</em>ome</a></li>
-      <li><a href="machinelearning.html" title="Learn about machine learning" accesskey="m">A to Z <em>M</em>achine learning</a></li>
-      <li><a href="python.html" title="Learn a bit about python" accesskey="P">Basic <em>P</em>ython </a></li>
-      <li><a href="#about" title="Learn a bit about me" accesskey="a"><em>A</em>bout me</a></li>
-      <li><a href="#contact" title="Get in Touch (a:o)" accesskey="c"><em>C</em>ontact</a></li>
-    </ul>
-  </div>
-  <div id="sidebar">
-    <h1>If you interested more about me. Check out channel below</h1>
-    <ul class="submenu">
-      <li><a href="https://www.youtube.com/channel/UCF971Ma4mil3RoozyvyqJ1w">Youtube channel</a></li>
-      <li><a href="https://github.com/azhadzuraimi">Github channel</a></li>
-      <li><a href="#">Hobby channel</a></li>
-      <li><a href="https://steamcommunity.com/profiles/76561198124738271/">Steam channel</a></li>
-      <li><a href="https://www.linkedin.com/in/muhammad-azhad-zuraimi-367204113/">Linkedin channel</a></li>
-    </ul>
-    <p class="note"> Stand tall. Stand proud. Stand out. GGMU.</p>
-  </div>
-  <div id="content">
-    <h1><a href="#about" id="about">About the Author</a></h1>
-      <div class="container-space">
-        <div class="container">
-          <div class="img-bio">
-            <img src="./images/azhad_face.png" alt="my face">
-          </div>
-          <div class="text-content">
-            <span>Azhad Zuraimi</span>
-            <span>Machine Learning Engineer</span>
-            <p> Hi! My name is Azhad. I am a Machine learning and Deep Learning enthusiast from Malaysia.</p>
-            <a href="https://drive.google.com/file/d/1vONY5IQvVfJUElkUmnPESMoRXy4mYnKi/view?usp=sharing" ><button class="btn">Read More</button></a>
-            <div class="social-media">
-              <a href="https://www.youtube.com/channel/UCF971Ma4mil3RoozyvyqJ1w"><i class='bx bxl-youtube' ></i></a>
-              <a href="https://github.com/azhadzuraimi"><i class='bx bxl-github'></i></a>
-              <a href="https://www.linkedin.com/in/muhammad-azhad-zuraimi-367204113/"><i class='bx bxl-linkedin-square' ></i></a>
-              <a href="https://steamcommunity.com/profiles/76561198124738271/"><i class='bx bxl-steam'></i></a>
-            </div>
-       
-        </div>
-      </div>
-      </div>
-    <div class="article_menu"> <b>Posted on 18/9/2023</b> <a href="#">0 Comments</a> </div>
-    <h1><a href="#intro" id="intro">Introduction</a></h1>
-    <h2>Hello world!</h2>
-    <p> This site is motivation for me to write a thesis, I am Master Engineering Student, and I currently studying Master of science (Electrical Engineering), Electrical and electronic engineering. </p>
-    <p> I am researching "3D Face Recognition using Deep Learning for Identification of person". Started my journey of this research on March 2021. The reason i write this blog to record my research work, learn and sharing my knowledge in machine learning, Artificial intelligance cyber and technology.</p>
-    <p> I hope my knowledge can help people who start learning about deep neural network, machine learning , and how to implement 3D in the neural network. Let begin!</p>
-    <div class="article_menu"> <b>Posted on 7/12/2022</b> <a href="#">0 Comments</a> </div>
-    <h2>I hope you guys are doing well</h2>
-    <blockquote>
-      <p> "If you want to be happy, set a goal that commands your thoughts, liberates your energy, and inspires your hopes." -Andrew Carnegie </p>
-    </blockquote>
-    <h1><a href="#contact" id="contact">Contact</a></h1>
-    <p> If u guys decide to contact me. please <a href="https://www.instagram.com/direct/t/340282366841710300949128141423538682258">drop me a line</a> to let me know! Don't hesitiate to get in touch if your interested. I look forward to hearing from you! </p>
-    <div class="article_menu"> <b>Posted on 22/7/2022</b> <a href="#">0 Comments</a> </div>
-  </div>
-  <div id="footer">
-    <p>Site design by <a href="https://www.instagram.com/azhadzuraimi/">Azhad</a>.<br />
-&copy; copyright 2022 by Azhad Zuraimi. All Rights Reserved.</p>
-  </div>
-</div>
-</body>
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="author" content="Azhad Zuraimi" />
+   <meta
+     name="description"
+     content="Azhad Zuraimi | AI / Machine Learning Engineer resume and portfolio page."
+   />
+   <title>Azhad Zuraimi | Resume</title>
+   <link rel="stylesheet" href="css/1.css" type="text/css" />
+ </head>
+ <body>
+   <div class="page-shell">
+     <header class="topbar">
+       <div class="name-block">
+         <h1>MUHAMMAD AZHAD BIN ZURAIMI</h1>
+         <p class="title">
+           AI / Machine Learning Engineer | Computer Vision | Multimodal AI |
+           Industrial AI Systems
+         </p>
+       </div>
+       <div class="contact-row">
+         <span>Kajang, Selangor, Malaysia</span>
+         <span>|</span>
+         <a href="tel:+60193041443">+60 19-304 1443</a>
+         <span>|</span>
+         <a href="mailto:azhadzuraimi@gmail.com">azhadzuraimi@gmail.com</a>
+         <span>|</span>
+         <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+         <span>|</span>
+         <a href="https://github.com/azhadzuraimi" target="_blank" rel="noreferrer">GitHub</a>
+       </div>
+     </header>
+
+     <main class="resume-layout">
+       <section class="section">
+         <h2>Professional Summary</h2>
+         <p>
+           AI and machine learning engineer with 5+ years of research and applied
+           development experience across computer vision, multimodal OCR,
+           LLM/VLM systems, video analytics, 3D point clouds, and production AI
+           APIs. Experienced in designing end-to-end AI pipelines, fine-tuning
+           and deploying deep-learning models, integrating solutions into
+           industrial systems, and translating research into measurable
+           operational impact. Recent work includes an AI-based Quran verification
+           platform, real-time license plate analytics, smart safety monitoring,
+           and meter-reading automation that improved rotation-logic accuracy from
+           55% to 99%. Holds an M.Sc. in Electrical Engineering and is registered
+           as a Graduate Engineer with BEM.
+         </p>
+       </section>
+
+       <section class="section">
+         <h2>Core Competencies</h2>
+         <div class="chip-grid">
+           <span>Deep Learning</span>
+           <span>Computer Vision</span>
+           <span>Multimodal AI</span>
+           <span>NLP</span>
+           <span>LLM/VLM Fine-tuning</span>
+           <span>OCR</span>
+           <span>Face Recognition</span>
+           <span>Object Detection</span>
+           <span>Segmentation</span>
+           <span>Python</span>
+           <span>C++</span>
+           <span>SQL</span>
+           <span>MATLAB</span>
+           <span>FastAPI</span>
+           <span>REST APIs</span>
+           <span>Git</span>
+           <span>Linux</span>
+           <span>ONNX</span>
+           <span>NVIDIA DeepStream</span>
+           <span>Model Deployment</span>
+           <span>PyTorch</span>
+           <span>TensorFlow</span>
+           <span>Keras</span>
+           <span>OpenCV</span>
+           <span>Pandas</span>
+           <span>NumPy</span>
+           <span>Hugging Face</span>
+           <span>Matplotlib</span>
+           <span>Tableau</span>
+           <span>Data Analysis</span>
+           <span>Industrial AI</span>
+           <span>Video Analytics</span>
+           <span>3D Point Clouds</span>
+           <span>Sensor Fusion</span>
+           <span>Quranic Text Verification</span>
+           <span>Robotics</span>
+           <span>Edge AI</span>
+           <span>Autonomous Systems</span>
+         </div>
+       </section>
+
+       <section class="section">
+         <h2>Professional Experience</h2>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Researcher | MIMOS Berhad</h3>
+             <span>Apr 2025 - Present</span>
+           </div>
+           <p class="location">
+             Federal Territory of Kuala Lumpur, Malaysia | Contract, On-site
+           </p>
+           <ul>
+             <li>
+               Built and deployed applied AI solutions spanning research,
+               dataset preparation, model training, evaluation, API integration,
+               testing, technical documentation, and stakeholder demonstrations.
+             </li>
+             <li>
+               Built and contributed to Mi-MUALLIM, an AI-based Quran
+               verification system combining OCR, NLP, LLMs, and validation
+               pipelines to identify surah and ayah, verify Rasm Uthmani
+               compliance, detect structural and diacritic deviations, and
+               provide API-based correction recommendations.
+             </li>
+             <li>
+               Developed Mi-PlateIQ, a real-time vehicle and license plate
+               analytics solution covering vehicle detection, plate
+               localisation, OCR extraction, ROI configuration, event-based
+               analytics, camera setup, and multi-camera NVIDIA DeepStream
+               deployment.
+             </li>
+             <li>
+               Designed and deployed a Python/FastAPI meter-detection pipeline
+               for meter localisation, reading and serial-number extraction,
+               improving image-rotation logic accuracy from 55% to 99% and
+               supporting mobile verification workflows.
+             </li>
+           </ul>
+         </article>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Research Officer | MIMOS Berhad</h3>
+             <span>Jul 2024 - Apr 2025</span>
+           </div>
+           <p class="location">
+             Federal Territory of Kuala Lumpur, Malaysia | Contract, On-site
+           </p>
+           <ul>
+             <li>
+               Contributed to Mi-GuardianAlert, an AI-powered facial-recognition
+               attendance and child-safety monitoring system implemented at
+               MIMOS Preschool; the solution received a Gold Award at ITEX.
+             </li>
+             <li>
+               Developed video-analytics capabilities including face
+               recognition and identification, emotion analysis, motion
+               tracking, behavioural analytics, and real-time event-driven
+               demonstrations.
+             </li>
+             <li>
+               Built cognitive point-cloud and visual-segmentation modules for
+               an edge-based sensor-fusion project focused on reliable
+               environmental perception, including model fine-tuning,
+               evaluation, and reproducible documentation.
+             </li>
+           </ul>
+         </article>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Assistant Store Manager | Myla Dobi</h3>
+             <span>May 2021 - Jul 2024</span>
+           </div>
+           <p class="location">Shah Alam, Selangor, Malaysia | Part-time</p>
+           <ul>
+             <li>
+               Supported day-to-day operations of a family-owned laundromat,
+               including staff scheduling, workflow monitoring, customer
+               service, inventory control, cash handling, expense tracking, and
+               vendor coordination.
+             </li>
+             <li>
+               Oversaw preventive maintenance and troubleshooting for washers,
+               dryers, and supporting equipment, while introducing process
+               improvements to increase operational reliability and turnaround
+               efficiency.
+             </li>
+           </ul>
+         </article>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Graduate Research Assistant | Universiti Teknologi MARA (UiTM)</h3>
+             <span>May 2021 - May 2023</span>
+           </div>
+           <p class="location">Shah Alam, Selangor, Malaysia | Contract</p>
+           <ul>
+             <li>
+               Led the design and development of a 3D face-recognition system
+               using deep learning to identify individuals wearing face masks,
+               covering data collection, experimental design, training,
+               evaluation, and publication.
+             </li>
+             <li>
+               Developed Python, C++, and MATLAB applications for 3D
+               facial-data processing and deep-learning workflows using PyTorch,
+               TensorFlow, and Keras, with expertise in triplet learning,
+               point clouds, face reconstruction, and model serving.
+             </li>
+           </ul>
+         </article>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Energy Engineer Intern | MyCES Sdn. Bhd.</h3>
+             <span>Jan 2020 - Feb 2020</span>
+           </div>
+           <p class="location">Semenyih, Selangor, Malaysia</p>
+           <ul>
+             <li>
+               Supported engineers with energy audits, client monitoring systems,
+               and smart-home services, including estimation of electrical
+               consumption across appliances, HVAC systems, lighting, and
+               building loads.
+             </li>
+           </ul>
+         </article>
+
+         <article class="role">
+           <div class="role-header">
+             <h3>Research &amp; Development Intern | Sony EMCS (Malaysia) Sdn. Bhd.</h3>
+             <span>Apr 2017 - Aug 2017</span>
+           </div>
+           <p class="location">Bandar Baru Bangi, Selangor, Malaysia</p>
+           <ul>
+             <li>
+               Assisted technicians and engineers with jig assembly,
+               circuit-board modification, software installation,
+               image-processing workstation setup, and equipment security and
+               inspection checklists.
+             </li>
+           </ul>
+         </article>
+       </section>
+
+       <section class="section">
+         <h2>Selected AI &amp; Engineering Projects</h2>
+         <div class="projects-grid">
+           <article class="project-card">
+             <h3>Mi-MUALLIM - AI Quran Verification Platform</h3>
+             <p>
+               Built OCR, NLP, LLM, and verification workflows for Quranic page
+               scanning, word extraction, surah/ayah identification, Rasm
+               Uthmani validation, structural and diacritic error detection, and
+               API-based correction recommendations.
+             </p>
+             <span>Jan 2026 - Present</span>
+           </article>
+
+           <article class="project-card">
+             <h3>Mi-PlateIQ - License Plate Recognition &amp; Vehicle Analytics</h3>
+             <p>
+               Developed real-time vehicle and license plate analytics covering
+               detection, plate localisation, OCR extraction, ROI setup, camera
+               configuration, event processing, and multi-camera NVIDIA
+               DeepStream deployment.
+             </p>
+             <span>2025</span>
+           </article>
+
+           <article class="project-card">
+             <h3>Mi-GuardianAlert - Smart Attendance &amp; Child Safety</h3>
+             <p>
+               Contributed to a facial-recognition attendance and safety-monitoring
+               solution implemented at MIMOS Preschool to help identify children
+               left unattended; recognised with a Gold Award at ITEX.
+             </p>
+             <span>2025</span>
+           </article>
+
+           <article class="project-card">
+             <h3>Meter Detection &amp; Mobile Verification</h3>
+             <p>
+               Designed a Python/FastAPI inference pipeline for meter localisation,
+               display reading, serial-number extraction, and image-rotation
+               handling; improved rotation-logic accuracy from 55% to 99%.
+             </p>
+             <span>2026</span>
+           </article>
+
+           <article class="project-card">
+             <h3>Multimodal Arabic OCR &amp; Word Localisation</h3>
+             <p>
+               Developed a VLM pipeline for Quranic Arabic line transcription and
+               word-level bounding boxes using structured JSON outputs; achieved CER
+               0.0605 and WER 0.1014 with zero parse failures in a recent evaluation.
+             </p>
+             <span>2025 - Present</span>
+           </article>
+         </div>
+       </section>
+
+       <section class="section">
+         <h2>Education</h2>
+         <article class="education">
+           <div class="role-header">
+             <h3>Master of Science (Electrical Engineering)</h3>
+             <span>2021 - 2024</span>
+           </div>
+           <p>Universiti Teknologi MARA</p>
+           <p>
+             Research focus: Artificial Intelligence, cyber-physical
+             technologies, 3D face recognition, and deep learning.
+           </p>
+         </article>
+
+         <article class="education">
+           <div class="role-header">
+             <h3>Bachelor of Engineering (Hons.), Electronics Engineering (Computer)</h3>
+             <span>2018 - 2021</span>
+           </div>
+           <p>Universiti Teknologi MARA</p>
+           <p>CGPA: 3.46 / 4.00</p>
+         </article>
+
+         <article class="education">
+           <div class="role-header">
+             <h3>Diploma in Electrical Engineering (Electronics)</h3>
+             <span>2015 - 2018</span>
+           </div>
+           <p>Universiti Teknologi MARA</p>
+           <p>CGPA: 3.33 / 4.00</p>
+         </article>
+       </section>
+
+       <section class="section">
+         <h2>Publications, Recognition &amp; Credentials</h2>
+         <ul>
+           <li>
+             Publications: “Vehicle Detection and Tracking using YOLO and
+             DeepSORT”; “3D Human Face Surface Reconstruction from Unstructured
+             Point Cloud Face Images.”
+           </li>
+           <li>
+             Performance Excellence Award / Certificate of Appreciation,
+             MIMOS Berhad; ITEX Gold Award contributor for Mi-GuardianAlert,
+             Best Technology Showcase Awards for Mi-Mualim.
+           </li>
+           <li>
+             Registered Graduate Engineer, Board of Engineers Malaysia (BEM).
+           </li>
+           <li>
+             Selected credentials: AWS Academy Cloud Foundations; Cisco
+             CyberOps Associate; CCNA Switching, Routing and Wireless
+             Essentials; Google Data Analytics Professional Certificate.
+           </li>
+           <li>
+             SiswaSAT 2020 graduate nano-satellite programme - Mechanical
+             Design Lead.
+           </li>
+         </ul>
+       </section>
+     </main>
+
+     <footer class="footer">
+       <p>© 2026 Azhad Zuraimi. All rights reserved.</p>
+     </footer>
+   </div>
+ </body>
 </html>
